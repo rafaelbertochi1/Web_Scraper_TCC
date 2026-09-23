@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Configurações e segredos
+.env
+
+# Dados coletados (não versionar)
+data/
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# IDEs / SO
+.vscode/
+.idea/
+.DS_Store
